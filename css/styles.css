@@ -1,6 +1,31 @@
-h1{
-  color: black;
-  font-family: serif;
-  align-self: center;
+h1 {
+  color: blue;
+  text-align: center;
+  background-color: grey;
+}
+h2 {
+  color: green;
+  font-style: italic;
+  text-align: center;
+}
+p {
+  font-family: sans-serif;
+  text-align: center;
+}
+ul {
+  align-items: center;
+  line-height: 40px;
+}
+html, body {
+    height: 100%;
+}
 
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
 }
